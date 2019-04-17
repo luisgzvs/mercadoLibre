@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MercadoLibreAutomationFramework" parallel="false">
+
+    <parameter name="startURL" value="https://www.mercadolibre.com.ar/"/>
+    <parameter name="executionType" value="local"/>
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="" value=""/>
+        <classes>
+            <class name="AirConditioningTest" />
+            <class name="SmarthPhoneTest" />
+            <class name="PerfumeTest" />
+            <class name="TextileIndustryTest" />
+            <class name="BabysRoomTest" />
+            <class name="Exercise2" />
+        </classes>
+    </test>
+
+</suite>
